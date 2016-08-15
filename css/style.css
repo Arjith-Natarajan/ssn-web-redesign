@@ -1,5 +1,8 @@
-
-
+.navbar-inverse{
+    position:absolute;
+    top:35px;
+    z-index: 1000;
+}
 img.bg {
     /* Set rules to fill background */
     min-height: 100%;
