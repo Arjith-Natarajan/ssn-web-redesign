@@ -68,7 +68,9 @@ body {
 -----------------------------------------------  */
 html, body {
   position: relative;
-  overflow-x: hidden; }
+  overflow-x: hidden; 
+  overflow-y: hidden;
+}
 
 /*----------------------------------------------   
 -Defualt to border-box
