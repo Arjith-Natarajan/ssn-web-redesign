@@ -254,9 +254,9 @@ font-size: 20pt;
 }
 .sect-banner .v-center h1 {
 <<<<<<< HEAD
-    -webkit-animation: fade-in ease-in-out 2s 0.5s both;
-    -moz-animation: fade-in ease-in-out 2s 0.5s both;
-    animation: fade-in ease-in-out 2s 0.5s both;
+    -webkit-animation: fade-in ease-in 2s 0.5s both;
+    -moz-animation: fade-in ease-in 2s 0.5s both;
+    animation: fade-in ease-in 2s 0.5s both;
     font-size: 45pt;
 =======
     -webkit-animation: fade-in ease-in 2s 0.5s both;
@@ -281,13 +281,15 @@ font-size: 20pt;
     background-position: 50%;
     z-index: 0;
     opacity: 0;
-    -webkit-animation: fade-out 9s infinite both;
+    -webkit-animation: fade-out 20s infinite both;
     -moz-animation: fade-out 9s infinite both;
     animation: fade-out 9s infinite both;
     background-image: url(../img/Classroom.jpg); }
     @media (min-width: 58em) {
       .sect-banner ul.kf-slider li {
-          background-image: url(../img/apple-iphone-books-desk.jpg)}}
+          background-image: url(../img/apple-iphone-books-desk.jpg);
+       -webkit-animation-delay:0.5s;
+      }}
   .sect-banner ul.kf-slider li:nth-child(2) {
     background-image: url(../img/empty%20lecture%20hall.jpg);
     -webkit-animation-delay: 5s;
@@ -295,15 +297,12 @@ font-size: 20pt;
     animation-delay: 3s; }
     @media (min-width: 58em) {
       .sect-banner ul.kf-slider li:nth-child(2) {
-        background-image: url(../img/Skyline.jpg); } }
-  .sect-banner ul.kf-slider li:nth-child(3) {
-    background-image: url(../images/banner-3-sm.jpg);
-    -webkit-animation-delay: 6s;
-    -moz-animation-delay: 6s;
-    animation-delay: 6s; }
-    @media (min-width: 58em) {
+        background-image: url(../img/Skyline.jpg);
+        -webkit-animation-delay:7s;} }
+      @media (min-width: 58em) {
       .sect-banner ul.kf-slider li:nth-child(3) {
-        background-image: url(../img/people-woman-coffee-meeting.jpg); } }
+        background-image: url(../img/people-woman-coffee-meeting.jpg);
+        -webkit-animation-delay:13s;} }
   .sect-banner .banner-bg {
     height: 100% !important;
     width: 100%;
