@@ -250,6 +250,7 @@ body {
 font-size: 20pt;
     text-emphasis-color: white;
     margin-top: 160px;
+    font-family: 'Open Sans', sans-serif;
 }
 .sect-banner .v-center h1 {
     -webkit-animation: fade-in ease-in-out 2s 0.5s both;
