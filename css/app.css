@@ -242,14 +242,21 @@ body {
     z-index: 2; }
   .sect-banner .v-center {
     display: table-cell;
-    vertical-align: middle;
     position: relative;
     z-index: 4;
     padding: 0 5%; }
+
+.v-center .mid-text{ color: white;
+font-size: 20pt;
+    text-emphasis-color: white;
+    margin-top: 160px;
+}
 .sect-banner .v-center h1 {
     -webkit-animation: fade-in ease-in-out 2s 0.5s both;
     -moz-animation: fade-in ease-in-out 2s 0.5s both;
-    animation: fade-in ease-in-out 2s 0.5s both; }
+    animation: fade-in ease-in-out 2s 0.5s both;
+    font-size: 35pt;
+}
 .sect-banner .v-center p {
     font-size: 120%;
     -webkit-animation: fade-in ease-in-out 2s 1s both;
