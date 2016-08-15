@@ -253,16 +253,16 @@ font-size: 20pt;
     font-family: 'Open Sans', sans-serif;
 }
 .sect-banner .v-center h1 {
-    -webkit-animation: fade-in ease-in-out 2s 0.5s both;
-    -moz-animation: fade-in ease-in-out 2s 0.5s both;
-    animation: fade-in ease-in-out 2s 0.5s both;
+    -webkit-animation: fade-in ease-in 2s 0.5s both;
+    -moz-animation: fade-in ease-in 2s 0.5s both;
+    animation: fade-in ease-in 2s 0.5s both;
     font-size: 35pt;
 }
 .sect-banner .v-center p {
     font-size: 120%;
-    -webkit-animation: fade-in ease-in-out 2s 1s both;
-    -moz-animation: fade-in ease-in-out 2s 1s both;
-    animation: fade-in ease-in-out 2s 1s both; }
+    -webkit-animation: fade-in ease-in 2s 1s both;
+    -moz-animation: fade-in ease-in 2s 1s both;
+    animation: fade-in ease-in 2s 1s both; }
    
   .sect-banner ul.kf-slider li {
     height: 100% !important;
