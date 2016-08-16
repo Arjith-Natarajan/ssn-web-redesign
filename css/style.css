@@ -8,10 +8,14 @@ Icons
 ================= */
 
 /* footer social icons */
+.social-network{
+    z-index: 1000;
+}
 ul.social-network {
     list-style: none;
     display: inline;
     padding: 0;
+   
 }
 ul.social-network li {
     display: inline;
@@ -113,11 +117,10 @@ img.bg {
     }
 }
 
-/*
-.navbar-xs { min-height:22px; border-radius:0} 
+ .navbar-xs { min-height:22px; border-radius:0} 
 .navbar-xs .navbar-brand{ padding: 2px 8px;font-size: 14px;line-height: 14px; } 
-.navbar-xs .navbar-nav > li > a { border-right:1px solid #ddd; padding-top: 2px; padding-bottom: 2px; line-height: 16px }*/
-
+.navbar-xs .navbar-nav > li > a { border-right:1px solid white; padding-top: 2px; padding-bottom: 2px; line-height: 16px }
+ 
 .navbar-xs { 
     height:30px; 
     border-top-left-radius: 20px;
@@ -128,6 +131,9 @@ img.bg {
     left: 14px;
     opacity: 0.9;
     width: 99%;
+    font-family: Lato;
+    font-weight: bolder;
+    font-size: 16px
 } 
 .navbar-xs .navbar-brand
 { 
@@ -135,9 +141,12 @@ img.bg {
     font-size: 15px;
     line-height: 10px;
 } 
+
 .navbar-xs .navbar-nav > li > a {
     border-right:1px solid #ddd;
-    padding-top: 7px;
+    padding-top: 5px;
     padding-bottom: 2px;
-    line-height: 18px
+    line-height: 18px;
+   
+    font-style: bold;
 }
