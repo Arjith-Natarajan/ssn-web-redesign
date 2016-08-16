@@ -2,6 +2,13 @@
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 /*-----------------------------------------------------------*/
 
+body{margin-top:50px;}
+#accordion .glyphicon { margin-right:10px; }
+.panel-body { padding:0px; }
+.panel-body table tr td { padding-left: 15px }
+.panel-body .table {margin-bottom: 0px; }
+/*-----------------------------------------------------------*/
+
 
 /*=========================
 Icons

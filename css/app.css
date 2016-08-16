@@ -423,13 +423,13 @@ margin-top: 150px;}
     background-image: url(../images/banner-1-sm.jpg);
     -webkit-animation: slider-sm ease-in-out 40s both infinite;
     -moz-animation: slider-sm ease-in-out 40s both infinite;
-    animation: slider-sm ease-in-out 40s both infinite; }
+    animation: slider-sm ease-in-out 50s both infinite; }
 @media (min-width: 58em) {
     .sect-banner .banner-bg {
         background-image: url(../images/city-backdrop.jpg);
         -webkit-animation: slider-lg ease-in-out 40s both infinite;
         -moz-animation: slider-lg ease-in-out 40s both infinite;
-        animation: slider-lg ease-in-out 40s both infinite; } }
+        animation: slider-lg ease-in-out 50 both infinite; } }
 
 /*----------------------------------------------   
 -Footer
@@ -459,7 +459,7 @@ footer {
 @keyframes fade-in {
   0% {
     opacity: 0; }
-  100% {
+  10% {
     opacity: 1; } }
 /*----------------------------------------------   
 --Fade out for slider
