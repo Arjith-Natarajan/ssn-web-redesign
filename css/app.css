@@ -427,7 +427,7 @@ margin-top: 150px;}
 @media (min-width: 58em) {
     .sect-banner .banner-bg {
         background-image: url(../images/city-backdrop.jpg);
-        -webkit-animation: slider-lg ease-in-out 40s both infinite;
+        -webkit-animation: slider-lg ease-in-out 50s both infinite;
         -moz-animation: slider-lg ease-in-out 40s both infinite;
         animation: slider-lg ease-in-out 50 both infinite; } }
 
@@ -536,12 +536,14 @@ footer {
     background-image: url(../images/banner-1.jpg); } }
 @keyframes slider-lg {
     0% {
-        background-image: url(../images/city-backdrop.jpg); }
-    25% {
-        background-image: url(../images/classroom.jpg); }
-    50% {
-        background-image: url(../images/Librbar.jpg); }
-    75% {
-        background-image: url(../images/Central-seminar-hall.jpg); }
+        background-image: url(../images/clocktower.jpe); }
+    20% {
+        background-image: url(../images/panorama.jpg); }
+	40% {
+        background-image: url(../images/instincts.jpg); }
+    60% {
+        background-image: url(../images/audi.jpg); }
+    80% {
+        background-image: url(../images/closeup.jpg); }
     100% {
-        background-image: url(../images/city-backdrop.jpg); } }
+        background-image: url(../images/clocktower.jpe); } }
