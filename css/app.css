@@ -541,8 +541,9 @@ footer {
     20% {
         background-image: url(../images/panorama.jpg); }
 	40% {
-        background-image: url(../images/instincts.jpg); }
-    60% {
+        background-image: url(../images/maxresdefault.jpg); }
+
+		60% {
         background-image: url(../images/audi.jpg); }
     80% {
         background-image: url(../images/closeup.jpg); }
