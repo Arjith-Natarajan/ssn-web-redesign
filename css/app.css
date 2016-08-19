@@ -356,6 +356,7 @@ font-size: 20pt;
     left: 0;
     height: 100%;
     width: 100%;
+    background: rgba(81, 82, 83, 0.4);
    /* background: rgba(118, 144, 164, 0.4);*/
     z-index: 0; }
 .sect-banner .v-center {
